@@ -1,6 +1,7 @@
 '''  Write a  program to enter temperature in celsius 
        and convert it into Fahrenheit.
 '''
-C= int(input("enter temperature in celsius :"))
-F= C*(9/5)+32
-print("temperature in fahrenheit :",F)
+
+c= int(input("enter temperature in celsius :"))
+f= 1.8 * c +32
+print("temperature in fahrenheit :",f)
