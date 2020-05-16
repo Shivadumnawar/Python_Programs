@@ -13,5 +13,6 @@ def gcd_rec(a,b):
         return a
     else:
         return gcd_rec(b, a%b)
-    
-gcd_rec(6,21)
+     
+k=gcd_rec(54,4)
+print("gcd of a and b :",k)
