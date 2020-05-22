@@ -6,5 +6,5 @@ to print the list after removing the 0th, 2nd, 4th,6th
  
 list1= [12,24,35,70,88,120,155]
         
-list2= [ y for x,y  in enumerate(list1) if x not in [0,2,4,6]]
+list2= [ enum for x,enum  in enumerate(list1) if x not in [0,2,4,6]]
 print(list2)
